@@ -1,75 +1,9 @@
-# Nuxt UI v3 Starter
+A simple website built using Vue, Nuxt, Nuxt UI v3, Tailwind v4 and Pinia
 
-Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui3.nuxt.dev) to learn more.
+I wanted a place where I can show some pages and components that I have built. Currently it is very minimal.
 
-## Setup
+The components are mostly prototypes and are not fully-functional or incredibly robust. There is no backend for the moment. I might add some basic NoSQL db like Cosmos at a later date.
 
-Make sure to install the dependencies:
+The website is deployed to Azure Static Web Apps at https://blue-pebble-0e93d0b03.4.azurestaticapps.net/
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Feel free to provide feedback or suggestions.
