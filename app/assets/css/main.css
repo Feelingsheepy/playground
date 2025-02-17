@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'Public Sans', sans-serif;
+
+  --animate-collapsible-left: collapsible-left 200ms ease-in-out;
+  --animate-collapsible-right: collapsible-right 200ms ease-in-out;
+
+  @keyframes collapsible-right {
+    from {
+      width: var(--reka-collapsible-content-width);
+    }
+
+    to {
+      width: 0;
+    }
+  }
+
+  @keyframes collapsible-left {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: var(--reka-collapsible-content-width);
+    }
+  }
+}
+
+:root {
+  --ui-primary: var(--ui-color-primary-400);
+  --ui-secondary: var(--ui-color-secondary-400);
+  --ui-success: var(--ui-color-success-400);
+  --ui-info: var(--ui-color-info-400);
+  --ui-warning: var(--ui-color-warning-400);
+  --ui-error: var(--ui-color-error-400);
+
+  /* Least prominent text */
+  --ui-text-dimmed: var(--ui-color-neutral-500);
+  /* Slightly muted text */
+  --ui-text-muted: var(--ui-color-neutral-400);
+  /* Moderately prominent text */
+  --ui-text-toned: var(--ui-color-neutral-300);
+  /* Default text color */
+  --ui-text: var(--ui-color-neutral-200);
+  /* Most prominent text */
+  --ui-text-highlighted: var(--color-white);
+
+  /* Main background color */
+  --ui-bg: var(--ui-color-neutral-900);
+  /* Subtle background */
+  --ui-bg-muted: var(--ui-color-neutral-800);
+  /* Slightly elevated background */
+  --ui-bg-elevated: var(--ui-color-neutral-800);
+  /* More prominent background */
+  --ui-bg-accented: var(--ui-color-neutral-700);
+  /* Inverted background color */
+  --ui-bg-inverted: var(--color-white);
+
+  /* Default border color */
+  --ui-border: var(--ui-color-neutral-800);
+  /* Subtle border */
+  --ui-border-muted: var(--ui-color-neutral-700);
+  /* More prominent border */
+  --ui-border-accented: var(--ui-color-neutral-700);
+  /* Inverted border color */
+  --ui-border-inverted: var(--color-white);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
